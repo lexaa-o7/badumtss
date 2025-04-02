@@ -1,3 +1,53 @@
+<!DOCTYPE html>
 <html>
-  
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    h2 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    body {
+  background-image: url('https://i.pinimg.com/736x/12/8f/5b/128f5b543c8bada5755fb3f57eb1d5c4.jpg');
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: url("https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/essentional-ui/cursor-3ipb517bu8klfeenemeo8.png/cursor-g91sz2ku125aqe3xtxms1g.png?_a=DAJFJtWIZAAC");
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 100000px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ html {
+          cursor: url("https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/essentional-ui/cursor-3ipb517bu8klfeenemeo8.png/cursor-g91sz2ku125aqe3xtxms1g.png?_a=DAJFJtWIZAAC"), auto;
+      }
+    
+</style>
+
+</head>
+<body style="background-color:white;">
+<h2 style="color:brown;">3n or Not?</h2>
+  <p style="color:brown;">Your number is...</p>
+<p1 id="demo"></p1>
+
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 100001);
+</script>
+    
+    </script>
+     <p style="color:brown; font-size:30px"> <a id="clicks" >0</a></p>
+    <button  type="button" class="button" style="border-color:white" onclick="hello()">3n</button>
+  <button>Not</button>
+
+</body>
 </html>
